@@ -1,2 +1,3 @@
 config/openvpn/
 logs/
+.DS_Store

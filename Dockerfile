@@ -6,7 +6,7 @@ LABEL org.opencontainers.image.licenses=AGPL-3.0
 LABEL maintainer="诺墨 <normal@normalcoder.com>"
 
 RUN apk update && \
-    apk add --no-cache openvpn openssl libssl1.1 && \
+    apk add --no-cache openvpn openssl libssl3 && \
     rm -rf /var/cache/apk/*
 
 RUN set -ex ; \
